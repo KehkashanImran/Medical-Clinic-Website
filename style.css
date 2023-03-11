@@ -1,0 +1,78 @@
+.top {
+  border: 2px solid rgb(236, 246, 246);
+  background-color: #f2f8f6;
+  padding: 20;
+  width: 100%;
+  height: 70px;
+  display: inline;
+}
+h1 {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #6c5ce7;
+}
+.navbar {
+  /* border: 2px solid burlywood; */
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  width: 100%;
+  height: 40px;
+  background-color: #a29bfe;
+  padding: 04pt;
+}
+.navbar ul {
+  background-color: #a29bfe;
+}
+.navbar ul {
+  list-style: none;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+.navbar ul a {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  line-height: 30px;
+  padding: 0 15px;
+  display: block;
+}
+.navbar ul li {
+  float: left;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+/* .navbar ul li :hover {
+  border: 2px solid;
+  border-bottom: #07502f;
+} */
+
+.navbar ul li:hover {
+  background: #6c5ce7;
+}
+.navbar ul ul {
+  position: absolute;
+  background: #dde1ec;
+  top: 100%;
+  left: 0;
+  display: none;
+}
+.navbar ul ul li {
+  float: none;
+  width: 200px;
+  border-left: 3px solid #55efc4;
+}
+.navbar ul ul li:hover {
+  border-left: 3px solid #07502f;
+}
+
+.navbar ul ul ul {
+  top: 0px;
+  left: 200px;
+}
+.navbar ul li:hover > ul {
+  display: block;
+}
